@@ -1,0 +1,71 @@
+body {
+    padding-top: 51px;
+}
+
+#logo-img {
+    max-height: 40px;
+    position: relative;
+    top: -10px;
+}
+
+.my-nav {
+    background-color: #555;
+}
+
+.my-nav a {
+    color: #eee;
+    background-color: transparent !important;
+}
+
+.my-nav a:hover {
+    color: #333;
+}
+
+.my-nav a:active {
+    color: #000;
+    background-color: transparent !important;
+}
+
+.item img {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 500px;
+    width: 100%;
+    z-index: 0;
+}
+
+.my-footer {
+	margin-top: 30px;
+	padding: 10px;
+	background-color: #444;
+}
+
+.my-footer h3 {
+	color: #53a8ee;
+}
+
+.my-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.my-footer li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+.my-footer li::before {
+  content: "• ";
+  color: #53a8ee; /* or whatever color you prefer */
+}
+
+.my-footer a {
+	color: #eee;
+}
+
+.my-footer img {
+	max-height: 250px;
+}
