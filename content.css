@@ -66,9 +66,13 @@ h4{
 	margin-bottom: 8px;
 }
 
+.topic-img{
+	min-width: 250px;
+	min-height: 250px;
+	width: 100%;
+}
 
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
 	.calendar-month{
 		font-size: 7px;
@@ -80,5 +84,15 @@ h4{
 
 	.calendar-day{
 		font-size: 14px;
+	}
+
+	.topic-img{
+		min-width: 200px;
+		min-height: 200px;
+		width: 100%;
+	}
+
+	.more-button{
+		font-size: 13px;
 	}
 }
